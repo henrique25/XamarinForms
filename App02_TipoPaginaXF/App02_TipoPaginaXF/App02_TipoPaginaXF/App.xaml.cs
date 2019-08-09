@@ -11,8 +11,10 @@ namespace App02_TipoPaginaXF
 		{
 			InitializeComponent();
 
-			MainPage = new MainPage();
-		}
+            //MainPage = new MainPage();
+            MainPage = new App02_TipoPaginaXF.TipoPagina.Carousel.IntroducaoApp();
+
+        }
 
 		protected override void OnStart ()
 		{

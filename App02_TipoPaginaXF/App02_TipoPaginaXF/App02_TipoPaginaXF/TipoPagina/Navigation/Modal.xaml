@@ -3,7 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App02_TipoPaginaXF.TipoPagina.Navigation.Modal">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout BackgroundColor="LightSkyBlue">
+            <StackLayout HeightRequest="50" BackgroundColor="LightBlue">
+                <Label Text="Eu sou o Título" />
+                <Button Text="X" Clicked="FecharModal" />
+            </StackLayout>
             <Label Text="Eu sou um modal"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />

@@ -30,5 +30,8 @@
     <EmbeddedResource Update="TipoPagina\Navigation\Pagina2.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="TipoPagina\Tabbed\Abas.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

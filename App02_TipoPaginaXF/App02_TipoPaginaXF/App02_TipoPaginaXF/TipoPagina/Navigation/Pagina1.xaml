@@ -15,7 +15,11 @@
                 HorizontalOptions="CenterAndExpand" />
 
             <Button Text="Ir para Página 2" Clicked="MudarParaPagina2" />
+            
             <Button Text="Chamar Modal" Clicked="ChamarModal" />
+            
+            <Button Text="Chamar Master" Clicked="ChamarMaster" />
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
